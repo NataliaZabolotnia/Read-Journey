@@ -1,0 +1,32 @@
+.containerHeader {
+  border-radius: 15px;
+  width: 335px;
+  height: 57px;
+  background: #1f1f1f;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rightBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.iconBlock {
+  border-radius: 100%;
+  fill: #262626;
+  stroke-width: 1px;
+  stroke: rgba(249, 249, 249, 0.2);
+}
+.icon {
+  fill: #f9f9f9;
+  width: 42px;
+  height: 17px;
+  display: block;
+  margin-top: 10px;
+}
+.menu {
+  stroke-width: 2px;
+  stroke: #f9f9f9;
+}
