@@ -66,8 +66,8 @@
 }
 .btnReg {
   border-radius: 30px;
-  padding: 12px 29px;
-  width: 140px;
+  padding: 12px 45px;
+  width: 131px;
   height: 42px;
   background: #f9f9f9;
   font-family: var(--font-family);
@@ -76,7 +76,7 @@
   line-height: 129%;
   letter-spacing: 0.02em;
   color: #1f1f1f;
-  margin-top: 12px;
+  margin-top: 64px;
   margin-right: 14px;
 }
 .link {

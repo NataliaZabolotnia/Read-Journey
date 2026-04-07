@@ -1,4 +1,4 @@
-import css from '@/app/(no-header)/registration/registration.module.css';
+import css from '@/app/(no-header)/login/login.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -17,7 +17,6 @@ export default function Registration() {
           </span>
         </h1>
         <form className={css.form}>
-          <input className={css.input} type="name" placeholder="Name:" />
           <input className={css.input} type="email" placeholder="Mail::" />
           <div className={css.password}>
             <input
@@ -50,10 +49,10 @@ export default function Registration() {
             </svg>
           </div>
           <button type="submit" className={css.btnReg}>
-            Registration
+            Login
           </button>
-          <Link className={css.link} href={'/login'}>
-            Already have an account?
+          <Link className={css.link} href={'/registration'}>
+            Don’t have an account?
           </Link>
         </form>
       </div>
